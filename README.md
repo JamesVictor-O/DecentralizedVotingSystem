@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Decentralized voting system
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+This smart contract allows registered voters to vote for the registered candidate of there choices and each address can only vote once and a candidate can not vote for himself or other candidates
